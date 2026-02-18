@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mujtaba | BSCS Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #0f172a;
+    color: #e2e8f0;
+    line-height: 1.6;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10%;
+    background: #0f172a;
+    position: sticky;
+    top: 0;
+}
+
+nav h1 {
+    color: #38bdf8;
+    font-size: 22px;
+}
+
+nav a {
+    color: #e2e8f0;
+    text-decoration: none;
+    margin-left: 25px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+header {
+    padding: 100px 10%;
+}
+
+header h2 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+header span {
+    color: #38bdf8;
+}
+
+header p {
+    font-size: 18px;
+    max-width: 600px;
+}
+
+button {
+    padding: 12px 26px;
+    background: #38bdf8;
+    border: none;
+    color: #0f172a;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 25px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #0ea5e9;
+}
+
+section {
+    padding: 80px 10%;
+}
+
+h3 {
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #38bdf8;
+}
+
+.skills, .projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    background: #334155;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #1e293b;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <h1>Mujtaba</h1>
+    <div>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<header>
+    <h2>Hi, I'm <span>M Mujtaba</span></h2>
+    <p>BSCS Student at Riphah International University | Cloud Engineer | AI & Cybersecurity Enthusiast</p>
+    <a href="resume.pdf" download>
+        <button>Download Resume</button>
+    </a>
+</header>
+
+<section id="about">
+    <h3>About Me</h3>
+    <p>
+        I am a Bachelor of Science in Computer Science (BSCS) student at Riphah International University 
+        with a strong passion for Software Development, Artificial Intelligence, and Cybersecurity.
+        I enjoy solving real-world problems using technology and continuously improving my technical skills.
+        My academic journey has built a solid foundation in Data Structures, Algorithms, Database Systems,
+        and secure software development practices.
+    </p>
+</section>
+
+<section id="skills">
+    <h3>Technical Skills</h3>
+    <div class="skills">
+        <div class="card">Python</div>
+        <div class="card">C++</div>
+        <div class="card">JavaScript</div>
+        <div class="card">HTML & CSS</div>
+        <div class="card">Data Structures & Algorithms</div>
+        <div class="card">Database Management (MySQL)</div>
+        <div class="card">Cybersecurity Fundamentals</div>
+        <div class="card">Git & GitHub</div>
+    </div>
+</section>
+
+<section id="projects">
+    <h3>Projects</h3>
+    <div class="projects">
+        <div class="card">
+            <h4>AI-Based Chatbot</h4>
+            <p>Developed a Python-based chatbot using natural language processing concepts to simulate automated conversations.</p>
+        </div>
+
+        <div class="card">
+            <h4>Network Security Scanner</h4>
+            <p>Built a basic vulnerability scanner to identify open ports and detect potential network security risks.</p>
+        </div>
+
+        <div class="card">
+            <h4>Student Management System</h4>
+            <p>Created a database-driven web application to manage student records using HTML, CSS, and MySQL.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h3>Contact</h3>
+    <p>Email: mujtaba@email.com</p>
+    <p>LinkedIn: linkedin.com/in/mujtaba</p>
+    <p>GitHub: github.com/mujtaba</p>
+</section>
+
+<footer>
+    <p>© 2026 mj world | Policies</p>
+</footer>
+
+</body>
+</html>
